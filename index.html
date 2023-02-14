@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESARROLLO WEB</title>
+    <style>
+        @media (prefers-reduced-motion: no-preference) {
+            * {
+                scroll-behavior: smooth;
+            }
+        }
+
+        * {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*Menu*/
+        header {
+            width: 100%;
+            height: 100vh;
+            background-image: url(/practica2/img/headerBack.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .pegado {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: top;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            background: #2980b9;
+
+        }
+
+        nav ol {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav>ol>li {
+            margin: 0 20px;
+            padding: 10px;
+            list-style: none;
+        }
+
+        nav>ol>li:hover {
+            background-color: gray;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            padding: 10px;
+        }
+
+        /*Contenido*/
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        main {
+            width: 100%;
+        }
+
+        section {
+            display: flex;
+            text-align: justify;
+            margin: 0 40px;
+            justify-content: space-evenly;
+        }
+
+        .formaInferior {
+            display: flex;
+            justify-content: center;
+        }
+
+        /*footer*/
+        footer {
+            background-color: blanchedalmond;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer a {
+            padding: 10px 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Menu-->
+    <header id="menu">
+        <div class="pegado">
+            <h1>Web's</h1>
+            <nav>
+                <ol>
+                    <li><a href="#Web 1.0">Web 1.0</a></li>
+                    <li><a href="#Web 2.0">Web 2.0</a></li>
+                    <li><a href="#Web3">Web 3.0</a></li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <hr>
+        <div class="formaSuperior">
+            <section id="Web 1.0">
+                <div>
+                    <h1>Web 1.0</h1>
+                    <p>La 'Web 1.0 (1991-2003) es la forma más básica que existe, con navegadores
+                        de sólo texto bastante rápidos. Después surgió el HTML que hizo las páginas
+                        Web más agradables a la vista, así como los primeros navegadores visuales
+                        tales como IE, Netscape, explorer (en versiones antiguas), etc.</p>
+                    <p>La Web 1.0 ofrece aplicaciones solo para lectura. El usuario no puede interactuar
+                        con el contenido de la página (nada de comentarios, respuestas, citas, etc),
+                        estando totalmente limitado a lo que el Webmaster sube a ésta.</p>
+                    <p>Web 1.0 se refiere a un estado de la World Wide Web, y cualquier página Web
+                        diseñada con un estilo anterior del fenómeno de la Web 2.0. Es en general un
+                        término que ha sido creado para describir la Web antes del impacto de la fiebre
+                        punto com en el 2001, que es visto por muchos como el momento en que
+                        el internet dio un giro.
+                    </p>
+                    <p>Es la forma más fácil en el sentido del término Web 1.0 cuando es usada en
+                        relación a término Web 2.0, para comparar los dos y mostrar ejemplos de cada
+                        uno.
+                    </p>
+                </div>
+                <div>
+                    <h2>Caracteristicas</h2>
+                    <ul>
+                        <li>Paginas estaticas en vez de dinamicas por el usuario que la visita.</li>
+                        <li>El uso de Framesets o Marcos</li>
+                        <li>Extensiones propias del HTML como el parpadeo y las marquesinas, etiquetas introducidas
+                            durante
+                            la
+                            guerra de navegadores Web.</li>
+                        <li>Libros de visita online.</li>
+                        <li>Botones GIF, casi siempre a una resolución tipica de 88*31 pixeles en tamaño promocionando
+                            navegadores WEB u otros productos.</li>
+                        <li>Formularios HTML enviados vía email. Un usuario llenaba un formulario y despues de hacer
+                            clic se
+                            enviaba a traves de un cliente de correo electronico, con el problema que en el codigo se
+                            podia
+                            observar los detalles del envio del correo electronico.</li>
+                        <li>No se podian adherir comentario ni nada parecido.</li>
+                    </ul>
+                    <img src="/practica2/img/web1_0.png" alt="">
+                </div>
+            </section>
+            <hr>
+            <section id="Web 2.0">
+                <div>
+                    <h1>Web 2.0</h1>
+                    <p>El término Web 2.0 está asociado a aplicaciones Web que facilitan el compartir
+                        información, la interoperabilidad, el diseño centrado en el usuario y la
+                        colaboración en la World Wide Web. Un sitio Web 2.0 permite a los usuarios
+                        interactuar y colaborar entre sí como creadores de contenido generado por
+                        usuarios en una comunidad virtual, a diferencia de sitios Web donde los usuarios
+                        se limitan a la observación pasiva de los contenidos que se ha creado para ellos.
+                        Ejemplos de la Web 2.0 son las comunidades Web, los servicios Web, las
+                        aplicaciones Web, los servicios de red social, los servicios de alojamientos de
+                        videos, las wikis, blogs y mashups.</p>
+                    <img src="/practica2/img/web2.0.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Caracteristicas</h2>
+                    <ul>
+                        <li>Blogs: Un blog es un espacio Web personal en el que su autor (puede
+                            haber varios autores autorizados) puede escribir cronológicamente
+                            artículos, noticias...(con imágenes y enlaces), pero además es un espacio
+                            colaborativo donde los lectores también pueden escribir sus comentarios
+                            a cada uno de los artículos (entradas/post) que ha realizado el autor.</li>
+                        <li> Wikis: En hawaiano "wiki" significa: rápido, informal. Una wiki es un
+                            espacio Web corporativo, organizado mediante una estructura
+                            hipertextual de páginas (referenciadas en un menú lateral), donde varias
+                            personas elaboran contenidos de manera asíncrona. Basta pulsar el
+                            botón "editar" para acceder a los contenidos y modificarlos. Suelen
+                            mantener un archivo histórico de las versiones anteriores y facilitan la
+                            realización de copias de seguridad de los contenidos. Hay diversos
+                            servidores de wiki gratuitos.
+                        </li>
+                        <li>Entornos para compartir recursos: Todos estos entornos nos permiten
+                            almacenar recursos en Internet, compartirlos y visualizarlos cuando nos
+                            convenga desde Internet. Constituyen una inmensa fuente de recursos y
+                            lugares donde publicar materiales para su difusión mundial.</li>
+                        <li> Documentos: podemos subir nuestros documentos y compartirlos,
+                            embebiéndolos en un Blog o Wiki, enviándolos por correo.</li>
+                        <li>Presentaciones</li>
+                        <li>Fotos</li>
+                        <li>Plataformas Educativas</li>
+                        <li>Aulas virtuales(sincronas)</li>
+                        <li>Redes sociales</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <hr>
+        <div class="formaInferior">
+            <section id="Web3">
+                <div>
+                    <h1>Web 3.0</h1>
+                    <p>Muchos son los expertos que han tratado de dar respuesta a la definición de Web
+                        3.0, pero todavía hoy no existe una explicación clara, algo lógico teniendo en
+                        cuenta que se trata de una predicción del futuro en la que deben considerarse
+                        tendencias que van apareciendo o mejorando continuamente</p>
+                    <p>Un sinónimo de Web 3.0 o concepto a través del que gira esta nueva concepción
+                        de la Red, es la Web Semántica. Esta consiste en una nueva concepción del
+                        entorno Web para un uso más natural por parte de los usuarios, desapareciendo
+                        la búsqueda por palabras clave para dar paso a la búsqueda por necesidades y
+                        en forma de expresión humana natural. Se trata de utilizar un lenguaje similar al
+                        que se usa en la vida cotidiana, lo que conlleva además la aparición de software
+                        que permita codificar correctamente esta información para devolver resultados
+                        lo más personalizados posible.
+                    </p>
+                    <p>Otra de las características apuntadas para esta Web 3.0 es la creación de un
+                        gran base de datos para dotar de nuevas posibilidades a los buscadores,
+                        enfocadas a la Inteligencia Artificial (que haría referencia al correcto
+                        funcionamiento de esta Web Semántica a través de una interpretación inteligente
+                        de datos) o la geolocalización.
+                    </p>
+                    <p>La evolución de la Web 2.0 ha hecho posible que se den más pistas sobre lo que
+                        se considera Web 3.0, siempre que se vea como una verdadera revolución,
+                        aunque lo más correcto sea verlo como una evolución, un lugar al que se llegará
+                        con el continuo cambio presentado por la Web 2.0. El surgimiento de las redes
+                        sociales, haciendo una Red cada vez más social y persona, así como la creación
+                        de páginas Web cada vez más dinámicas (y por tanto menos estáticas),
+                        aportando soluciones cada vez más personales (listas de deseos, sugerencias
+                        de compra, ofertas personalizadas, etc.), apuntan a que el cambio ya está
+                        patente y que la personalización de los contenidos es un hecho.</p>
+                    <p>La visión más futurista y que llega del hecho de que cada vez existan más
+                        posibilidades de conexión en cuanto a dispositivos disponibles, es la de la
+                        conexión desde cualquier soporte dentro del hogar. Espejos,
+                        electrodomésticos... Todo ello para ofrecer un contenido personalizable, capaz
+                        de ofrecerse con la interacción de diferentes páginas Web (portales que se
+                        conectan entre ellos para ofrecer un contenido a medida).
+                    </p>
+                    <img src="/practica2/img/web3.0.jpg" alt="">
+                </div>
+                <div>
+                    <h2>Caracteristicas</h2>
+                    <ul>
+                        <li>La transformación de la Web en una base de datos distribuida: a través
+                            del lenguaje de marcas extensible XML (“eXtensible Markup Language”),
+                            la estructura para la descripción de recursos, en base a metadatos, RDF
+                            (“Resource Description Framework”), y diversos microformatos que
+                            permiten agregar significado semántico a los contenidos.</li>
+                        <li> La introducción de la tecnología de Web semántica: emplea búsquedas
+                            en lenguaje natural y la minería de datos. Clasifica la información de
+                            manera más eficiente, a fin de devolver resultados más precisos a las
+                            solicitudes de búsqueda de los usuarios. </li>
+                        <li>Hacer los contenidos Web accesibles desde múltiples
+                            dispositivos:comprende el diseño de las interfaces para que puedan ser
+                            accedidas desde múltiples dispositivos, tales como teléfonos inteligentes,
+                            televisores digitales, iPad's, PDA's, etc.
+                        </li>
+                        <li> El uso de las tecnologías de inteligencia artificial: por medio de programas
+                            especializados (Agentes Inteligentes), para comprender mejor lo que la
+                            gente solicita.</li>
+                        <li> La Web geoespacial: que combine la información geográfica disponible
+                            de los usuarios, con la información que predomina en la Web, generando
+                            contextos que permiten realizar búsquedas u ofrecer servicios en base a
+                            la localización.
+                        </li>
+                        <li> Uso de la tecnología para 3D:que transforme la Web actual en espacios
+                            tridimensionales inmersivos, donde los usuarios puedan sumergirse e
+                            interactuar.</li>
+                    </ul>
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <a href="#menu">Home</a>
+    </footer>
+</body>
+
+</html>
